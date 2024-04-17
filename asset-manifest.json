@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shopify-react/static/css/main.dd3ec94a.css",
+    "main.js": "/shopify-react/static/js/main.196b39f7.js",
+    "static/media/logo.png": "/shopify-react/static/media/logo.aad552ee8bceb43d39d1.png",
+    "static/media/slick.svg": "/shopify-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shopify-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shopify-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/shopify-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/shopify-react/index.html",
+    "main.dd3ec94a.css.map": "/shopify-react/static/css/main.dd3ec94a.css.map",
+    "main.196b39f7.js.map": "/shopify-react/static/js/main.196b39f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd3ec94a.css",
+    "static/js/main.196b39f7.js"
+  ]
+}
