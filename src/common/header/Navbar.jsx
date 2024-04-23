@@ -33,45 +33,50 @@ const Navbar = () => {
             onClick={closeMobileMenu}
           >
             <li>
-              <Link to="/" onClick={() => scrollToSection("home-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("home-section")}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSection("new-deal-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("new-deal-section")}>
                 New Arrivals
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSection("flash-deal-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("flash-deal-section")}>
                 Flash Deals
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSection("discount-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("discount-section")}>
                 Discount
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSection("about-us-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("about-us-section")}>
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/" onClick={() => scrollToSection("contact-section")}>
+              <Link to="/Ecommerce-react" onClick={() => scrollToSection("contact-section")}>
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link to="/Login" >
+                Login
               </Link>
             </li>
             {/* Add similar links for other sections */}
           </ul>
 
-          <button className="toggle" onClick={() => setMobileMenu(!mobileMenu)}>
+          {/* <button className="toggle" onClick={() => setMobileMenu(!mobileMenu)}>
             {mobileMenu ? (
               <i className="fas fa-times close home-btn"></i>
             ) : (
               <i className="fas fa-bars open"></i>
             )}
-          </button>
+          </button> */}
         </div>
       </div>
     </header>

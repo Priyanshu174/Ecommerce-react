@@ -5,6 +5,8 @@ import Header from "./common/header/Header"
 import Pages from "./pages/Pages"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
+import Login from "./components/Login/Login"
+import Signup from "./components/Signup/Signup"
 
 function App() {
 
@@ -61,11 +63,17 @@ function App() {
       <Router>
         <Header CartItem={CartItem} />
         <Switch>
-          <Route path='/' exact>
+          <Route path='/Ecommerce-react' exact>
             <Pages  addToCart={addToCart}  />
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+          </Route>
+          <Route path='/Login' exact>
+            <Login/>
+          </Route>
+          <Route path='/signup' exact>
+            <Signup/>
           </Route>
         </Switch>
         <Footer />
