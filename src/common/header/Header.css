@@ -13,9 +13,9 @@
 }
 /*------head-----------*/
 /*------search-----------*/
-.search {
+/* .search {
   padding: 20px 0;
-}
+} */
 .search .logo img {
   width: auto;
   height: auto;
@@ -111,7 +111,7 @@ header ul li a:hover {
   display: none;
 }
 .search.active {
-  height: 12vh;
+  height: 18vh;
   position: fixed;
   top: 0;
   z-index: 1000;

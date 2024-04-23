@@ -5,7 +5,7 @@ import TopCart from "./TopCart"
 const TopCate = () => {
   return (
     <>
-      <section className='TopCate background' id="top">
+      <section className='TopCate background'>
         <div className='container'>
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>

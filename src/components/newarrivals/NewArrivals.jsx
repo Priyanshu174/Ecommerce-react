@@ -5,7 +5,7 @@ import "./style.css"
 const NewArrivals = () => {
   return (
     <>
-      <section className='NewArrivals background' id="new">
+      <section className='NewArrivals background'>
         <div className='container'>
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>

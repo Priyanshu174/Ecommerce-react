@@ -9,17 +9,7 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 
 function App() {
-  /*
-  step1 :  const { productItems } = Data 
-  lai pass garne using props
-  
-  Step 2 : item lai cart ma halne using useState
-  ==> CartItem lai pass garre using props from  <Cart CartItem={CartItem} /> ani import garrxa in cartItem ma
  
-  Step 3 :  chai flashCard ma xa button ma
-
-  Step 4 :  addToCart lai chai pass garne using props in pages and cart components
-  */
 
   //Step 1 :
   const { productItems } = Data
@@ -30,7 +20,7 @@ function App() {
 
   //Step 4 :
   const addToCart = (product) => {
-    // if hamro product alredy cart xa bhane  find garna help garxa
+    
     const productExit = CartItem.find((item) => item.id === product.id)
     // if productExit chai alredy exit in cart then will run fun() => setCartItem
     // ani inside => setCartItem will run => map() ani yo map() chai each cart ma
