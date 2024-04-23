@@ -1,10 +1,41 @@
 import React from "react"
-import Sdata from "./Sdata"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
+import s1 from "./sliderimages/slide-1.png"
+import s2 from "./sliderimages/slide-2.png"
+import s3 from "./sliderimages/slide-3.png"
+import s4 from "./sliderimages/slide-4.png"
 const SlideCard = () => {
+  const Sdata = [
+    {
+      id: 1,
+      title: "50% Off For Your First Shopping",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      cover: s1,
+    },
+    {
+      id: 2,
+      title: "50% Off For Your First Shopping",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      cover: s2,
+    },
+    {
+      id: 3,
+      title: "50% Off For Your First Shopping",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      cover: s3,
+    },
+    {
+      id: 4,
+      title: "50% Off For Your First Shopping",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
+      cover: s4,
+    },
+  ]
+  
+  
   const settings = {
     dots: true,
     infinite: true,

@@ -2,9 +2,40 @@ import React from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import Tdata from "./Tdata"
 
+import c1 from "./images/category-1.png"
+import c2 from "./images/category-2.png"
+import c3 from "./images/category-3.png"
 const TopCart = () => {
+  const Tdata = [
+    {
+      cover: c1,
+      para: "headphone",
+      desc: "3k orders this week",
+    },
+    {
+      cover: c2,
+      para: "watch",
+      desc: "4k orders this week",
+    },
+    {
+      cover: c3,
+      para: "sunglass",
+      desc: "6k orders this week",
+    },
+    {
+      cover: c3,
+      para: "watch",
+      desc: "4k orders this week",
+    },
+    {
+      cover: c2,
+      para: "sunglass",
+      desc: "6k orders this week",
+    },
+  ]
+  
+  
   const settings = {
     dots: false,
     infinite: true,

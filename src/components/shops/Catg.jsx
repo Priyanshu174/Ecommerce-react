@@ -1,29 +1,30 @@
 import React from "react"
-
+import c1 from "./catimages/cat-1.png"
+import c2 from "./catimages/cat-2.png"
 const Catg = () => {
   const data = [
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: c1,
       cateName: "Apple",
     },
     {
-      cateImg: "./images/category/cat-2.png",
+      cateImg: c2,
       cateName: "Samasung",
     },
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: c1,
       cateName: "Oppo",
     },
     {
-      cateImg: "./images/category/cat-2.png",
+      cateImg: c2,
       cateName: "Vivo",
     },
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: c1,
       cateName: "Redimi",
     },
     {
-      cateImg: "./images/category/cat-2.png",
+      cateImg: c2,
       cateName: "Sony",
     },
   ]

@@ -2,6 +2,11 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import f1 from "./images/flash-1.png"
+import f2 from "./images/flash-2.png"
+import f3 from "./images/flash-3.png"
+import f4 from "./images/flash-4.png"
+import f5 from "./images/flash-5.png"
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -23,7 +28,55 @@ const SamplePrevArrow = (props) => {
     </div>
   )
 }
-const FlashCard = ({ productItems, addToCart }) => {
+const FlashCard = ({  addToCart }) => {
+  //
+  const Data = {
+    productItems: [
+      {
+        id: 1,
+        discount: 50,
+        cover: f1,
+        name: "Shoes",
+        price: 100,
+      },
+      {
+        id: 2,
+        discount: 40,
+        cover: f2,
+        name: "Watch",
+        price: 20,
+      },
+      {
+        id: 3,
+        discount: 40,
+        cover: f3,
+        name: "Smart Mobile Black",
+        price: 200,
+      },
+      {
+        id: 4,
+        discount: 40,
+        cover: f4,
+        name: "Smart Watch Black",
+        price: 50,
+      },
+      {
+        id: 5,
+        discount: 50,
+        cover: f5,
+        name: "Shoes",
+        price: 100,
+      },
+      {
+        id: 6,
+        discount: 50,
+        cover: f3,
+        name: "Shoes",
+        price: 100,
+      },
+    ],
+  }
+  //
   const [count, setCount] = useState(0)
   const increment = () => {
     setCount(count + 1)
@@ -41,7 +94,8 @@ const FlashCard = ({ productItems, addToCart }) => {
   return (
     <>
       <Slider {...settings}>
-        {productItems.map((productItems) => {
+        {Data.productItems.map((productItems) => {
+          console.log(productItems.cover);
           return (
             <div className='box'>
               <div className='product mtop'>

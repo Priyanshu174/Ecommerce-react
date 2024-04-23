@@ -8,7 +8,7 @@ import Shop from "../components/shops/Shop";
 import Annocument from "../components/annocument/Annocument";
 import Wrapper from "../components/wrapper/Wrapper";
 
-const Pages = ({ productItems, addToCart, CartItem, shopItems }) => {
+const Pages = ({  addToCart, CartItem, shopItems }) => {
   return (
     <>
 
@@ -16,7 +16,7 @@ const Pages = ({ productItems, addToCart, CartItem, shopItems }) => {
         <Home CartItem={CartItem} />
       </div>
       <div className="flash-deal-section">
-        <FlashDeals productItems={productItems} addToCart={addToCart} />
+        <FlashDeals  addToCart={addToCart} />
       </div>
       <TopCate />
       <div className="new-deal-section">
@@ -25,7 +25,7 @@ const Pages = ({ productItems, addToCart, CartItem, shopItems }) => {
       <div className="discount-section">
         <Discount />
       </div>
-      <Shop shopItems={shopItems} addToCart={addToCart} />
+      <Shop  addToCart={addToCart} />
       <Annocument />
       <div className="about-us-section contact-section">
       <Wrapper />
