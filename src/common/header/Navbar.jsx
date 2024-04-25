@@ -4,12 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  // Function to close mobile menu
+  
   const closeMobileMenu = () => {
     setMobileMenu(false);
   };
 
-  // Function to scroll to a section with a given class name
   const scrollToSection = (className) => {
     const section = document.querySelector(`.${className}`);
     if (section) {
@@ -67,16 +66,10 @@ const Navbar = () => {
                 Login
               </Link>
             </li>
-            {/* Add similar links for other sections */}
+           
           </ul>
 
-          {/* <button className="toggle" onClick={() => setMobileMenu(!mobileMenu)}>
-            {mobileMenu ? (
-              <i className="fas fa-times close home-btn"></i>
-            ) : (
-              <i className="fas fa-bars open"></i>
-            )}
-          </button> */}
+          
         </div>
       </div>
     </header>
